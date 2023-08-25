@@ -1,0 +1,36 @@
+[INFO] Searching for WebDriver executables installed on the current system...
+Selenium Manager binary found at /Users/evgeniiakhmetgareev/projects/ausbot/node_modules/selenium-webdriver/bin/macos/selenium-manager
+Driver path: /Users/evgeniiakhmetgareev/.cache/selenium/chromedriver/mac-arm64/116.0.5845.96/chromedriver
+Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Driver path: /Users/evgeniiakhmetgareev/.cache/selenium/msedgedriver/mac-arm64/115.0.1901.203/msedgedriver
+Driver path: /Users/evgeniiakhmetgareev/.cache/selenium/geckodriver/mac-arm64/0.33.0/geckodriver
+Driver path: /Users/evgeniiakhmetgareev/.cache/selenium/IEDriverServer/win32/4.11.0/IEDriverServer.exe
+Driver path: /usr/bin/safaridriver
+Browser path: /Applications/Safari.app/Contents/MacOS/Safari
+[INFO] ... located chrome
+[INFO] ... located MicrosoftEdge
+[INFO] ... located firefox
+[INFO] ... located internet explorer
+[INFO] ... located safari
+[INFO] Running tests against [chrome, MicrosoftEdge, firefox, internet explorer, safari]
+
+
+  [chrome]
+    First script
+Driver path: /Users/evgeniiakhmetgareev/.cache/selenium/chromedriver/mac-arm64/116.0.5845.96/chromedriver
+Browser path: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+      1) First Selenium script
+
+
+  0 passing (10s)
+  1 failing
+
+  1) [chrome]
+       First script
+         First Selenium script:
+     TypeError: assert.equals is not a function
+      at Context.<anonymous> (parse.js:20:20)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
